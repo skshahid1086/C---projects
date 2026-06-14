@@ -271,6 +271,6 @@ Through this project, I practiced:
 
 # Author
 
-**Shahid**
+**Sahid**
 
 Built as part of my C programming learning journey.
