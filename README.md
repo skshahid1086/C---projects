@@ -24,4 +24,4 @@ A CRUD application for managing student records using structures and arrays.
 
 ## Author
 
-Shahid
+Sahid
