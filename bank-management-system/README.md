@@ -62,7 +62,7 @@ This project demonstrates the following C programming concepts:
 ```text
 Banking-System/
 │
-├── main.c
+├── bank.c
 ├── accounts.dat
 └── README.md
 ```
