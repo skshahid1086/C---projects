@@ -71,7 +71,7 @@ Banking-System/
 
 | File         | Purpose                                |
 | ------------ | -------------------------------------- |
-| main.c       | Source code                            |
+| bank.c       | Source code                            |
 | accounts.dat | Stores account information permanently |
 | README.md    | Project documentation                  |
 
