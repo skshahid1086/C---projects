@@ -173,13 +173,13 @@ This ensures that account information persists between program executions.
 
 Choose operation: 1
 
-Enter Account Holder Name: Shahid
+Enter Account Holder Name: Sahid
 Enter opening balance: 5000
 
 Account created successfully!
 
 Account Number: 110045678
-Name: Shahid
+Name: Sahid
 Balance: 5000.00
 ```
 
