@@ -273,7 +273,7 @@ This project helped in understanding:
 
 ## Author
 
-Shahid
+Sahid
 
 A beginner-friendly banking management system built in C to practice core programming concepts and file handling.
 
