@@ -17,7 +17,8 @@ void menu(){
     printf("1. Create Account\n");
     printf("2. Deposit Money\n");
     printf("3. Withdraw Money\n");
-    printf("4. List All Acounts\n");
+    printf("4. Search Account\n");
+    printf("5. List All Acounts\n");
     printf("0. Exit\n");
 }
 
@@ -190,6 +191,30 @@ void display(){
     }else printf("Wrong password\n");
 }
 
+void searchAcc(){
+    int n;
+    printf("Enter your 10 digit Account Number: ");
+    scanf("%d",&n);
+    int found = 0;
+
+    for(int i=0;i<accCount;i++){
+        if(n==banks[i].acc){
+            printf("\n");
+            printf("Name: %s\n",banks[i].name);
+            printf("Branch: Demo Branch\n");
+            printf("IFSC: 11000\n");
+            printf("Account Balance: %.2f\n",banks[i].balance);
+            found = 1;
+
+            break;
+        }
+    }
+
+    if(!found){
+        printf("Account Not Found\n");
+    }
+}
+
 int main(){
     srand(time(NULL));
 
@@ -215,6 +240,9 @@ int main(){
             withdraw();
             break;
         case 4:
+            searchAcc();
+            break;
+        case 5:
             display();
             break;
         case 0:
