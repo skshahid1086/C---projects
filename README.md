@@ -20,7 +20,7 @@ A CRUD application for managing student records using structures and arrays.
 * Arrays
 * Structures
 * Input Validation
-* File Handling (coming soon)
+* File Handling
 
 ## Author
 
