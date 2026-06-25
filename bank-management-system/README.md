@@ -208,7 +208,7 @@ To view all accounts:
 ### GCC
 
 ```bash
-gcc main.c -o bank
+gcc bank.c -o bank
 ```
 
 ### Run
