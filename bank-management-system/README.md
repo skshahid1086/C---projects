@@ -156,7 +156,8 @@ This ensures that account information persists between program executions.
 1. Create Account
 2. Deposit Money
 3. Withdraw Money
-4. List All Accounts
+4. Search Account
+5. List All Acounts
 0. Exit
 ```
 
